@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Age calculator app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <form id="ageForm">
+      <div class="detail">
+        <label for="days">DAY</label>
+        <input type="number" id="days" name="days"  placeholder="DD">
+        <p class="hide DD">This field is required</p>
+      </div>
+      <div class="detail">
+        <label for="months">MONTH</label>
+        <input type="number" id="months" name="months"  placeholder="MM">
+        <p class="hide MM">This field is required</p>
+      </div>
+      <div class="detail">
+        <label for="years">YEAR</label>
+        <input type="number" id="years" name="years"  placeholder="YYYY">
+        <p class="hide YYYY">This field is required</p>
+      </div>
+    </form>
+    <div class="line">
+      <hr>
+      <button form="ageForm" type="submit"><img src="assets/images/icon-arrow.svg" alt=""></button>
+    </div>
+    <div id="result">
+      <h1 class="years"><em><span>- -</span>years</em></h1>
+      <h1 class="months"><em><span>- -</span>months</em></h1>
+      <h1 class="days"><em><span>- -</span>days</em></h1>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
