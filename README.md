@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/agecalculatorapp-using-html-css-and-jquery-8pxnzsl5S_)
+- Live Site URL: [Live Site](https://ahmadikhdair.github.io/age-calculator-app/)
 
 ## My process
 
